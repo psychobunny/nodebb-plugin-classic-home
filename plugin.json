@@ -1,0 +1,16 @@
+{
+	"id": "nodebb-plugin-classic-home",
+	"name": "Classic forum homepage for NodeBB",
+	"description": "Classic forum homepage for NodeBB",
+	"url": "https://github.com/psychobunny/nodebb-plugin-classic-home",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "action:app.load", "method": "init"
+		}
+	],
+	"templates": "./static/templates",
+	"less": [
+		"./static/style.less"
+	]
+}

@@ -1,0 +1,72 @@
+.row.home > div {
+	padding-left: 8px !important;
+	padding-right: 8px !important;
+}
+
+.row.home .col-lg-9.col-sm-12 {
+	height: 100%!important;
+}
+
+.classic-categories {
+	padding-left: 8px !important;
+	padding-right: 8px !important;
+	margin-bottom: 15px;
+
+	.jumbotron {
+		background: lighten(spin(@brand-primary, -40), 60%);
+		color: #222;
+		padding: 30px;
+		padding-bottom: 0;
+		padding-top: 17px;
+		margin-bottom: 20px;
+
+		> a span {
+			font-size: 16px;
+			background-color: white;
+			color: #717171;
+			font-family: @font-family-monospace;
+		}
+		h1 {
+			color: #111;
+			font-size: 25px;
+			margin: 10px 0px;
+		}
+
+		h3 {
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+
+		.col-xs-2 span {
+			font-size: 17px;
+			font-weight: 300;
+			padding-left: 2px;
+		}
+
+		.col-xs-8 > span {
+			margin-bottom: 20px;
+			display: block;
+		}
+
+		small {
+			font-size: 16px;
+		}
+
+		.post-preview-content {
+			a img {
+				width: 25px;
+			}
+
+			.content {
+				p {
+					height: 33px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					padding-left: 6px;
+					font-size: 17px;
+				}
+			}
+		}
+	}
+}
