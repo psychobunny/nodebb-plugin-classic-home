@@ -5,9 +5,6 @@
 	"url": "https://github.com/psychobunny/nodebb-plugin-classic-home",
 	"library": "./library.js",
 	"hooks": [],
-	"nbbpm": {
-		"compatibility": "^0.6.0"
-	},
 	"templates": "./static/templates",
 	"less": [
 		"./static/style.less"
