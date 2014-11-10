@@ -4,11 +4,10 @@
 	"description": "Classic forum homepage for NodeBB",
 	"url": "https://github.com/psychobunny/nodebb-plugin-classic-home",
 	"library": "./library.js",
-	"hooks": [
-		{
-			"hook": "action:app.load", "method": "init"
-		}
-	],
+	"hooks": [],
+	"nbbpm": {
+		"compatibility": "^0.6.0"
+	},
 	"templates": "./static/templates",
 	"less": [
 		"./static/style.less"
